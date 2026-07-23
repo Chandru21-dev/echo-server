@@ -1,0 +1,14 @@
+{
+  "name": "echo-push-server",
+  "version": "1.0.0",
+  "description": "Optional push-notification server for the Echo PWA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "web-push": "^3.6.7"
+  }
+}
